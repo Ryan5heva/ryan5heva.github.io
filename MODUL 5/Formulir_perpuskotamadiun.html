@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulir Perpustakaan Kota Madiun</title>
+    <hr>
+    <center>
+    <h1><b>FORMULIR PERPUSTAKAAN MADIUN</b></h1>
+    </center>
+<body>
+    <form action="perpus.html" method="get">
+     <hr>
+        Nama :
+        <input type="text" name="nama" />
+        <br><br>
+        Nomor Telepon :
+        <input type="text" name="nomor_telepon" />
+        <br><br>
+        Keperluan :
+        <br>
+        <input type="checkbox" name="Meminjam Buku" checked/> Meminjam Buku
+        <br>
+        <input type="checkbox" name="Mengembalikan Buku" /> Mengembalikan Buku
+        <br><br>
+        Kode Buku :
+        <input type="text" name="kode_buku" />
+        <br><br>
+        Tanggal Pinjam :
+        <br>
+        <input type="date" id="tanggal_pinjam" name="tanggal_pinjam">
+        <br><br>
+        Tanggal Pengembalian :
+        <br>
+        <input type="date" id="tanggal_kembali" name="tanggal_kembali">
+        <br><br>
+        Metode Pengembalian :
+        <br>
+            <select name="Metode_pengembalian">
+                <option value="Diantar" selected>Diantar</option>
+                <option value="Diambil">Diambil</option>
+        </select>
+        <br><br>
+        Detail Permohonan :
+        <br>
+        <textarea name="komentar" rows="5" cols="20"></textarea>
+        <hr>
+        <input type="submit" value="PINJAM" />
+        <hr>
+    </form>
+</body>
+</head>
+</html>
